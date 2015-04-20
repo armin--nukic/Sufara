@@ -1,5 +1,6 @@
 package sufara.ba.edu.ibu.sufara;
 
+import android.content.Intent;
 import android.media.Image;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -17,14 +18,22 @@ public class LoginActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        ImageView lekcije = (ImageView)findViewById(R.id.imageView);
         Button prev = (Button)findViewById(R.id.button);
-        Button next = (Button)findViewById(R.id.button);
+        Button next = (Button)findViewById(R.id.button2);
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 
+            }
+        });
+
+        prev.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, LecturesActivity.class);
+
+                startActivity(intent);
             }
         });
     }

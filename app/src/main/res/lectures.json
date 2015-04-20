@@ -1,0 +1,27 @@
+[
+    {
+        "id":"1",
+        "name":"elif",
+        "level":"1",
+        "sufara":[
+            {
+                "word":"e",
+                "word":"i",
+                "word":"u",
+            }
+        ]
+
+    },
+    {
+        "id":"2",
+        "name":"ba",
+        "level":"2",
+        "sufara":[
+            {
+                "word":"be",
+                "word":"bi",
+                "word":"bu",
+            }
+        ]
+    }
+]
