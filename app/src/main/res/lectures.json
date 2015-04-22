@@ -1,7 +1,7 @@
 [
     {
         "id":"1",
-        "name":"elif",
+        "name":" ا ",
         "level":"1",
         "sufara":[
             {
@@ -14,7 +14,7 @@
     },
     {
         "id":"2",
-        "name":"ba",
+        "name":" ب ",
         "level":"2",
         "sufara":[
             {
@@ -23,5 +23,368 @@
                 "word":"bu",
             }
         ]
+
+         "id":"3",
+                "name":" ت ",
+                "level":"3",
+                "sufara":[
+                    {
+                        "word":"te",
+                        "word":"ti",
+                        "word":"tu",
+                    }
+                ]
+
+                "id":"4",
+                                "name":" ث ",
+                                "level":"4",
+                                "sufara":[
+                                    {
+                                        "word":"se",
+                                        "word":"si",
+                                        "word":"su",
+                                    }
+                                ]
+
+                                "id":"5",
+                                                                "name":"ج",
+                                                                "level":"5",
+                                                                "sufara":[
+                                                                    {
+                                                                        "word":"dža",
+                                                                        "word":"dži",
+                                                                        "word":"džu",
+                                                                    }
+                                                                ]
+
+                                   "id":"6",
+                                       "name":" ح ",
+                                                 "level":"6",
+                                                "sufara":[
+                                             {
+                                          "word":"ha",
+                                          "word":"hi",
+                                           "word":"hu",
+                                        }
+                                              ]
+
+                                               "id":"7",
+                             "name":" خ ",
+                                       "level":"7",
+                          "sufara":[
+                                  {
+                                     "word":"Ha",
+                                       "word":"hi",
+                                        "word":"hu",
+                                              }
+                                           ]
+
+                                              "id":"8",
+                               "name":" د ",
+                                     "level":"8",
+                                  "sufara":[
+                                          {
+                                      "word":"da",
+                                      "word":"di",
+                                       "word":"du",
+                                       }
+                                  ]
+
+                                 "id":"9",
+                               "name":" ز ",
+                                     "level":"9",
+                                  "sufara":[
+                                          {
+                                      "word":"za",
+                                      "word":"zi",
+                                       "word":"zu",
+                                       }
+                                  ]
+        "id":"10",
+                               "name":" ر ",
+                                     "level":"10",
+                                  "sufara":[
+                                          {
+                                      "word":"ra",
+                                      "word":"ri",
+                                       "word":"ru",
+                                       }
+                                  ]
+                    "id":"11",
+                            "name":" ز ",
+                           "level":"11",
+                              "sufara":[
+                                     {
+                                 "word":"za",
+                                     "word":"zi",
+                                     "word":"zu",
+                                       }
+                                   ]
+
+                       "id":"12",
+                      "name":" س ",
+                  "level":"12",
+                          "sufara":[
+                             {
+                           "word":"se",
+                           "word":"si",
+                           "word":"su",
+                                }
+                           ]
+
+                            ]
+
+
+                             "id":"13",
+                                   "name":" ش ",
+                            "level":"13",
+                               "sufara":[
+                                   {
+                                  "word":"še",
+                                    "word":"ši",
+                                    "word":"šu",
+                                            }
+                                         ]
+
+
+
+                             "id":"14",
+                                   "name":" ص ",
+                            "level":"14",
+                               "sufara":[
+                                   {
+                                  "word":"sa",
+                                    "word":"si",
+                                    "word":"su",
+                                            }
+                                         ]
+
+
+
+                             "id":"15",
+                                   "name":" ض ",
+                            "level":"15",
+                               "sufara":[
+                                   {
+                                  "word":"da",
+                                    "word":"di",
+                                    "word":"du",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" ط ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"ta",
+                                    "word":"ti",
+                                    "word":"tu",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" ظ ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"za",
+                                    "word":"zi",
+                                    "word":"zu",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" ع ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"a'",
+                                    "word":"'i",
+                                    "word":"'u",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" غ ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"ge",
+                                    "word":"gi",
+                                    "word":"gu",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" ف ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"fe",
+                                    "word":"fi",
+                                    "word":"fu",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" ق ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"ka",
+                                    "word":"ki",
+                                    "word":"ku",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" ك ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"ke",
+                                    "word":"ki",
+                                    "word":"ku",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" ل ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"le",
+                                    "word":"li",
+                                    "word":"lu",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" م ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"me",
+                                    "word":"mi",
+                                    "word":"mu",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" ن ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"ne",
+                                    "word":"ni",
+                                    "word":"iu",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" و ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"ve",
+                                    "word":"vi",
+                                    "word":"vu",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" ه ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"he",
+                                    "word":"hi",
+                                    "word":"hu",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" ي ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"je",
+                                    "word":"ji",
+                                    "word":"ju",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" س ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"se",
+                                    "word":"si",
+                                    "word":"su",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" س ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"se",
+                                    "word":"si",
+                                    "word":"su",
+                                            }
+                                         ]
+
+
+
+                             "id":"12",
+                                   "name":" س ",
+                            "level":"12",
+                               "sufara":[
+                                   {
+                                  "word":"se",
+                                    "word":"si",
+                                    "word":"su",
+                                            }
+                                         ]
+
+
+
+
+
+
+
     }
 ]

@@ -18,17 +18,17 @@ public class LoginActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Button prev = (Button)findViewById(R.id.button);
-        Button next = (Button)findViewById(R.id.button2);
+        Button prev = (Button)findViewById(R.id.btnPrev);
+        Button next = (Button)findViewById(R.id.btnNext);
 
-        next.setOnClickListener(new View.OnClickListener() {
+        prev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 
             }
         });
 
-        prev.setOnClickListener(new View.OnClickListener() {
+        next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(LoginActivity.this, LecturesActivity.class);

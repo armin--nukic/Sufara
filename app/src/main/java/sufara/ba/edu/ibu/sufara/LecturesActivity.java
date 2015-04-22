@@ -1,5 +1,6 @@
 package sufara.ba.edu.ibu.sufara;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -28,6 +29,9 @@ public class LecturesActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lectures);
 
+
+
+
         /*
         try {
             String lectures = loadJSONFromAsset();
@@ -37,12 +41,14 @@ public class LecturesActivity extends ActionBarActivity {
             e.printStackTrace();
         }
 */
-        String[] lecturesList = {"Lecture one", "Lecture two", "Lecture three"};
+        String[] lecturesList = {"Lecture one", "Lecture two", "Lecture three", "Lecture four", "Lecture five", "Lecture six", "Lecture seven", "Lecture eight", "Lecture nine", "Lecture ten", "Lecture eleven", "Lecture twelve", "Lecture thirteen", "Lecture fourteen", "Lecture sixteen", "Lecture seventeen","Lecture eighteen", "Lecture nineteen", "Lecture twenty", "Lecture twenty-one", "Lecture twenty-two", "Lecture twenty-three", "Lecture twenty-four", "Lecture twenty-five", "Lecture twenty-six", "Lecture twenty-seven", "Lecture twenty-eight" };
         ListAdapter lecturesAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, lecturesList);
         ListView listLecturesView = (ListView)findViewById(R.id.listLecturesView);
 
         listLecturesView.setAdapter(lecturesAdapter);
     }
+
+
 
     public String loadJSONFromAsset() {
         String json = null;
