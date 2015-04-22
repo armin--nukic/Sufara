@@ -14,8 +14,16 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="sufara.ba.edu.ibu.sufara.LoginActivity"
+            android:name="sufara.ba.edu.ibu.sufara.LectureActiviy"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="sufara.ba.edu.ibu.sufara.LecturesActivity"
+            android:label="@string/title_activity_lectures" >
+        </activity>
+        <activity
+            android:name="sufara.ba.edu.ibu.sufara.MainActivity"
+            android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

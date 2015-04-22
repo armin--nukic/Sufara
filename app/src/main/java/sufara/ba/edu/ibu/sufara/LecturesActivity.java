@@ -3,23 +3,16 @@ package sufara.ba.edu.ibu.sufara;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Adapter;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.zip.Adler32;
 
 
 public class LecturesActivity extends ActionBarActivity {
@@ -46,9 +39,15 @@ public class LecturesActivity extends ActionBarActivity {
         ListView listLecturesView = (ListView)findViewById(R.id.listLecturesView);
 
         listLecturesView.setAdapter(lecturesAdapter);
+
+        listLecturesView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(LecturesActivity.this, LectureActiviy.class);
+                startActivity(intent);
+            }
+        });
     }
-
-
 
     public String loadJSONFromAsset() {
         String json = null;
