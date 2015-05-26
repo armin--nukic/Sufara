@@ -19,14 +19,14 @@ public class LectureActiviy extends ActionBarActivity {
         Button prev = (Button)findViewById(R.id.btnPrev);
         Button next = (Button)findViewById(R.id.btnNext);
 
-        prev.setOnClickListener(new View.OnClickListener() {
+        next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 
             }
         });
 
-        next.setOnClickListener(new View.OnClickListener() {
+        prev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(LectureActiviy.this, LecturesActivity.class);

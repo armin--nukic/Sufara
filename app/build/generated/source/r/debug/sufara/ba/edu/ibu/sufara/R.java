@@ -1332,7 +1332,7 @@ containing a value of this type.
         public static final int beginning=0x7f090013;
         public static final int btnNext=0x7f090040;
         public static final int btnPrev=0x7f090041;
-        public static final int button3=0x7f090046;
+        public static final int button3=0x7f090047;
         public static final int checkbox=0x7f090029;
         public static final int collapseActionView=0x7f090017;
         public static final int decor_content_parent=0x7f09002f;
@@ -1359,6 +1359,7 @@ containing a value of this type.
         public static final int normal=0x7f09000a;
         public static final int progress_circular=0x7f090005;
         public static final int progress_horizontal=0x7f090006;
+        public static final int prvaLekcija=0x7f090043;
         public static final int radio=0x7f09002b;
         public static final int scrollView=0x7f090042;
         public static final int scrollView2=0x7f090049;
@@ -1379,10 +1380,9 @@ containing a value of this type.
         public static final int split_action_bar=0x7f090007;
         public static final int submit_area=0x7f09003c;
         public static final int tabMode=0x7f09000b;
-        public static final int textView=0x7f090043;
         public static final int textView2=0x7f090044;
         public static final int textView3=0x7f09004a;
-        public static final int textView4=0x7f090047;
+        public static final int textView4=0x7f090046;
         public static final int title=0x7f090027;
         public static final int up=0x7f090008;
         public static final int useLogo=0x7f090012;
@@ -1451,9 +1451,8 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f0b000f;
         public static final int action_settings=0x7f0b0010;
         public static final int app_name=0x7f0b0011;
-        public static final int hello_world=0x7f0b0012;
-        public static final int title_activity_lectures=0x7f0b0013;
-        public static final int title_activity_main=0x7f0b0014;
+        public static final int title_activity_lectures=0x7f0b0012;
+        public static final int title_activity_main=0x7f0b0013;
     }
     public static final class style {
         public static final int Animation_AppCompat_DropDownUp=0x7f0c0000;

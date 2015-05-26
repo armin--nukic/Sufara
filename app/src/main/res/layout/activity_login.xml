@@ -51,18 +51,21 @@
                 android:weightSum="1">
 
                 <TextView
-                    android:layout_width="207dp"
-                    android:layout_height="35dp"
-                    android:text="First Lecture -  Elif ( ا )"
-                    android:id="@+id/textView"
-                    android:textSize="20dp" />
+                    android:layout_width="106dp"
+                    android:layout_height="31dp"
+                    android:text="Prva lekcija"
+                    android:id="@+id/prvaLekcija"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17dp"
+                    android:textColor="#ffff090e" />
 
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text="Opšta karakteristika arapskog alfabeta je u tome što se sastoji samo od suglasnika izuzimajući jedino u izvjesnim slučajevima ELIF. Prvo slovo arapske abecede je uspravna crta (l) zvana elif. Elif bez ikakva znaka ući se samo sprva kur&apos;anskih poglavlja (sure· ta) i u arapskoj abecedi. Kao svako drugo arapsko slovo i elif se ći.. ta samo uz pomoć znakova za samoglasnike."
-                    android:id="@+id/textView2" />
+                    android:id="@+id/textView2"
+                    android:layout_weight="0.72" />
             </LinearLayout>
         </ScrollView>
 
