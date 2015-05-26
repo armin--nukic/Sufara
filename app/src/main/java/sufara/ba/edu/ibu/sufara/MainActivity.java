@@ -1,27 +1,44 @@
 package sufara.ba.edu.ibu.sufara;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-
-import java.util.Timer;
-import java.util.TimerTask;
+import android.view.View;
+import android.widget.Button;
 
 
 public class MainActivity extends ActionBarActivity {
+
+    Button harfoviBtn, lecturesBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        new Timer().schedule(new TimerTask(){
-            public void run() {
-                startActivity(new Intent(MainActivity.this, LecturesActivity.class));
+        harfoviBtn = (Button)findViewById(R.id.harfoviBtn);
+        lecturesBtn = (Button)findViewById(R.id.buttonlectures);
+
+        lecturesBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentt = new Intent(MainActivity.this,ListLecturesActivity.class);
+                startActivity(intentt);
             }
-        }, 2000 /*amount of time in milliseconds before execution*/ );
+        });
+
+        harfoviBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                GuessImageActivity.questionCounter = 0;
+                Intent intent = new Intent(MainActivity.this, GuessImageActivity.class);
+                intent.putExtra("questionType", "harfovi");
+                startActivity(intent);
+
+            }
+        });
     }
 
 
