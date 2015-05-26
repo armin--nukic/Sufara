@@ -14,7 +14,7 @@ import android.widget.TextView;
 public class LectureActivity extends ActionBarActivity {
 
     String harf;
-    String[] arr = {"alif", "da", "ha", "shin", "sin", "ta", "thsa", "ra", "za", "sad", "dzim", "ba", "tha", "kha"};
+    String[] arr = {"alif", "da", "ha", "shin", "sin", "ta", "thsa", "ra", "za", "sad", "dzim", "ba", "tha", "kha", "ajn"};
     String data = arr[0];
 
     int i = 0;

@@ -91,7 +91,7 @@ public class GuessImageFragment extends Fragment {
         switch (questionType){
 
             case "harfovi":
-                randomImage = GuessImageActivity.vehicleImages.get(rn.nextInt(5));
+                randomImage = GuessImageActivity.harfsImages.get(rn.nextInt(11));
                 int res3 = getResources().getIdentifier(randomImage, "drawable", mActivity.getPackageName());
                 imageView.setImageResource(res3);
 
@@ -106,26 +106,28 @@ public class GuessImageFragment extends Fragment {
         radioButton3.setText(answers.get(2));
         radioButton4.setText(answers.get(3));
 
+
+
         nextBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 RadioButton answerRB = (RadioButton)rootView.findViewById(radioGroup.getCheckedRadioButtonId());
 
                 if (randomImage.equals(answerRB.getText().toString().toLowerCase())){
-                    showToast(true, "TRUE");
+                    showToast(true, "THIS IS TRUE");
                     ((GuessImageActivity) mActivity).increaseTrueCounter();
                 }else {
                     showToast(false, "FALSE, The correct answer is " + randomImage.toUpperCase());
-                    vibrator.vibrate(800);// vibration for 800 milliseconds
+                    vibrator.vibrate(750);// vibration for 650 milliseconds
                 }
 
-                if (GuessImageActivity.questionCounter<10) {
+                if (GuessImageActivity.questionCounter<12) {
                     ((GuessImageActivity) mActivity).ubaciFragment();
                     Log.i("GuessImageFragment", "insert fragment");
                 }else{
                     Log.i("GuessImageFragment", "show score");
                     AlertDialog.Builder scoreDialog = new AlertDialog.Builder(getActivity());
-                    scoreDialog.setTitle("Score: " + ((GuessImageActivity) mActivity).getTrueCounter()*10);
+                    scoreDialog.setTitle("Your score is: " + ((GuessImageActivity) mActivity).getTrueCounter()*10);
                     scoreDialog.setMessage("True answers: " + ((GuessImageActivity) mActivity).getTrueCounter() + "\nFalse answers: " + (10-((GuessImageActivity) mActivity).getTrueCounter()));
                     scoreDialog.setNegativeButton("OK", new DialogInterface.OnClickListener() {
                         @Override
@@ -145,21 +147,7 @@ public class GuessImageFragment extends Fragment {
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 //ovo ispod je dodano nakon sto sam ovo komentirao ispod
                 nextBtn.setEnabled(true);
-//                switch(checkedId){
-//                    case R.id.radioButton1:
-//                        nextBtn.setEnabled(true);
-//                        break;
-//                    case R.id.radioButton2:
-//                        nextBtn.setEnabled(true);
-//                        break;
-//                    case R.id.radioButton3:
-//                        nextBtn.setEnabled(true);
-//                        break;
-//                    case R.id.radioButton4:
-//                        nextBtn.setEnabled(true);
-//                        break;
-//
-//                }
+
             }
         });
 
@@ -170,7 +158,7 @@ public class GuessImageFragment extends Fragment {
         ArrayList<String> randomAnswers = new ArrayList<>();
         randomAnswers.add(trueAnswer);
         do{
-            String falseAnswer = GuessImageActivity.vehicleImages.get(rn.nextInt(5));
+            String falseAnswer = GuessImageActivity.harfsImages.get(rn.nextInt(5));
             if (!randomAnswers.contains(falseAnswer))
                 randomAnswers.add(falseAnswer);
         }while(randomAnswers.size() < 4);
@@ -186,7 +174,7 @@ public class GuessImageFragment extends Fragment {
         TextView toastText = (TextView) toastView.findViewById(R.id.toastText);
 
         toastText.setText(text);
-        toastText.setTextColor(isCorrect ? Color.GREEN : Color.RED);
+        toastText.setTextColor(isCorrect ? Color.BLUE : Color.RED);
         toastImage.setImageResource(isCorrect ? R.drawable.correct : R.drawable.incorrect);
 
 
