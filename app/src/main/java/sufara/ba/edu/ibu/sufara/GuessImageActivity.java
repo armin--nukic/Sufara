@@ -12,7 +12,7 @@ public class GuessImageActivity extends ActionBarActivity {
     private int trueCounter=0;
 
 
-    public static ArrayList<String> harfsImages = new ArrayList<>(Arrays.asList("za", "tha", "sin", "sad", "ra", "ba", "kha", "dzim", "ta", "ajn", "ajn", "kaf", "mim", "nun", "vav", "zal", "lam", "ka", "fa", "ja", "dal", "gajn", "he"));
+    public static ArrayList<String> harfsImages = new ArrayList<>(Arrays.asList("za", "tha", "sin", "sad", "ra", "ba", "kha", "dzim", "ta", "da", "ajn", "kaf", "mim", "nun", "vav", "zal", "lam", "ka", "fa", "ja", "dal", "gajn", "he"));
 
 
     @Override
