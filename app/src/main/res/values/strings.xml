@@ -16,21 +16,34 @@
     <string name="title_activity_lectures">LecturesActivity</string>
     <string name="title_activity_lecture">LectureActivity</string>
     <string name="alif_lecture">Alif is simple letter. The first letter or harf in the Arabic alphabet is Elif that looks like a vertical line. He was the first of the harp, which bind only with their right hand. Pronunciation of voice when I ie. (With Sukun) is similar to whisper to be heard prior to our river plan would be to say that the elif with sukun do not read. When Elif or under it come some of the signs for short vowels pronounced only the vocals.</string>
-    <string name="da_lecture">ba in second letter</string>
+    <string name="dal_lecture">Harf Dal looks like one bent line in the form of an arc of which the lower part of the more horizontal, pronounced like our letter "D"</string>
     <string name="ha_lecture">one more letter and it have specific pronauntiation</string>
     <string name="title_activity_game">GameActivity</string>
-    <string name="thsa_lecture">thsa lecture text</string>
+    <string name="thsa_lecture">Harf "SA" look like harps "TA" only instead of two has three points above, this harps does not exist in our language. Pronounced by the tip of the tongue placed between the front teeth and gently let to flow air uttering a soft "S"</string>
     <string name="ta_lecture">ta is letter for ...</string>
     <string name="shin_lecture">shin is same as sin just with three dots...</string>
     <string name="sin_lecture">sin harf is one ...</string>
-    <string name="za_lecture">za harf is like this ...</string>
+    <string name="za_lecture">For Harf za the same look and harfs R except that over the harp is one point which is part of the harp. Its pronounced like our letter "Z". ie. composed of teeth</string>
 
-    <string name="ra_lecture">ra harf is one ...</string>
+    <string name="ra_lecture">Harf Ra looks like one bent line in the form of an arc whose lower part more prone to bottom relative to the harps and gave Hall. Its pronounced like our letter "R"</string>
     <string name="sad_lecture">sad harf is very simple as you see ...</string>
     <string name="dzim_lecture">dzim harf is this letter ...</string>
     <string name="ba_lecture">Harf "BA" looks like a small boat / kayak beneath which there is one item that is an integral part of the harp, pronounced like our letter "B". In the pronunciation of the harp using both lips that compile and then suddenly let go of pronouncing "B" ...</string>
     <string name="tha_lecture">tha harf touch the top of your teeth with tongue</string>
     <string name="kha_lecture">kha harf is one that is pronounced like this ...</string>
     <string name="ajn_lecture">Ajn harf is one  ...</string>
+    <string name="kaf_lecture">Kaf harf is one  ...</string>
+    <string name="mim_lecture">Mim harf is one  ...</string>
+    <string name="nun_lecture">Harf "NUN" has a container in which the top is one item that is an integral part of the harp and that (as if cooked in a pot). In the pronunciation of the harp using the upper part of the language that is too close to the palate and pronounced like our "N".</string>
+    <string name="vav_lecture">Vav harf is one  ...</string>
+    <string name="zal_lecture">Harf zal looks the same as da If only the above it is one point at which it different from harp Dal. Pronounced so that the tip of the tongue touching the upper front teeth (incisors) and pronounced "W"</string>
+    <string name="lam_lecture">Harf "LAM" it looks like a fishing line fish. Pronounced as our "L" except that it is pronounced a little thinner.</string>
+    <string name="gajn_lecture">Gajn harf is one  ...</string>
+    <string name="he_lecture">He is very simple ha. harf is one  ...</string>
+    <string name="ka_lecture">Harf KAF is written in two ways when it was written separately ie. I or at the end of the river then it looks like a harp "LAM" except that the above is a small sign similar to our letter "S"</string>
+    <string name="fa_lecture">Fa harf is one  ...</string>
+    <string name="ja_lecture">Ja harp that connect with both your hand and harps "JA". This harps is written in two different ways and pronounced as our "J"</string>
+    <string name="da_lecture">Dad harf is one  ...</string>
+
 
 </resources>

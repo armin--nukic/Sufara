@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffffd7"
+    android:background="#ffcbdbff"
     android:padding="6dp"
     tools:context="sufara.ba.edu.ibu.sufara.PlayActivity$PlaceholderFragment">
 

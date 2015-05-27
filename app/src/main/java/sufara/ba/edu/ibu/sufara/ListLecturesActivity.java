@@ -24,7 +24,7 @@ public class ListLecturesActivity extends ActionBarActivity {
 
         ListView lecturesList = (ListView)findViewById(R.id.lecturesList);
 
-        String[] values = new String[] {"alif", "da", "ha", "shin", "sin", "ta", "thsa", "ra", "za", "sad", "dzim", "ba", "tha", "kha", "ajn"};
+        String[] values = new String[] {"alif", "da", "ha", "shin", "sin", "ta", "thsa", "ra", "za", "sad", "dzim", "ba", "tha", "kha", "ajn", "kaf", "mim", "nun", "vav", "zal", "lam", "ka", "fa", "ja", "dal", "gajn", "he"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, values);
 

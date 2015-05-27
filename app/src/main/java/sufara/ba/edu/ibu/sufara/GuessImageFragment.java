@@ -91,7 +91,7 @@ public class GuessImageFragment extends Fragment {
         switch (questionType){
 
             case "harfovi":
-                randomImage = GuessImageActivity.harfsImages.get(rn.nextInt(11));
+                randomImage = GuessImageActivity.harfsImages.get(rn.nextInt(23));
                 int res3 = getResources().getIdentifier(randomImage, "drawable", mActivity.getPackageName());
                 imageView.setImageResource(res3);
 
@@ -121,7 +121,7 @@ public class GuessImageFragment extends Fragment {
                     vibrator.vibrate(750);// vibration for 650 milliseconds
                 }
 
-                if (GuessImageActivity.questionCounter<12) {
+                if (GuessImageActivity.questionCounter<10) {
                     ((GuessImageActivity) mActivity).ubaciFragment();
                     Log.i("GuessImageFragment", "insert fragment");
                 }else{
@@ -145,7 +145,7 @@ public class GuessImageFragment extends Fragment {
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                //ovo ispod je dodano nakon sto sam ovo komentirao ispod
+                //to click what is true in radiogruop
                 nextBtn.setEnabled(true);
 
             }
