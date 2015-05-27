@@ -39,7 +39,7 @@ public class GuessImageActivity extends ActionBarActivity {
 
     public void ubaciFragment(){
         questionCounter++;
-        //ovdje ubacujem fragment u PlayActivity
+        //here is fragment for gameactivity
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.container, GuessImageFragment.newInstance(bundle.getString("questionType")))
                 .commit();

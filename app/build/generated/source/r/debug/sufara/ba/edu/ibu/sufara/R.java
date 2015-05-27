@@ -1338,21 +1338,20 @@ containing a value of this type.
         public static final int left=0x7f020050;
         public static final int logo=0x7f020051;
         public static final int mim=0x7f020052;
-        public static final int motorcycle=0x7f020053;
-        public static final int next_selector=0x7f020054;
-        public static final int nun=0x7f020055;
-        public static final int ra=0x7f020056;
-        public static final int right=0x7f020057;
-        public static final int sad=0x7f020058;
-        public static final int shin=0x7f020059;
-        public static final int sin=0x7f02005a;
-        public static final int sufara=0x7f02005b;
-        public static final int ta=0x7f02005c;
-        public static final int tha=0x7f02005d;
-        public static final int thsa=0x7f02005e;
-        public static final int vav=0x7f02005f;
-        public static final int za=0x7f020060;
-        public static final int zal=0x7f020061;
+        public static final int next_selector=0x7f020053;
+        public static final int nun=0x7f020054;
+        public static final int ra=0x7f020055;
+        public static final int right=0x7f020056;
+        public static final int sad=0x7f020057;
+        public static final int shin=0x7f020058;
+        public static final int sin=0x7f020059;
+        public static final int sufara=0x7f02005a;
+        public static final int ta=0x7f02005b;
+        public static final int tha=0x7f02005c;
+        public static final int thsa=0x7f02005d;
+        public static final int vav=0x7f02005e;
+        public static final int za=0x7f02005f;
+        public static final int zal=0x7f020060;
     }
     public static final class id {
         public static final int action_bar=0x7f090031;
